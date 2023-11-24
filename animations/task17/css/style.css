@@ -1,0 +1,14 @@
+.box {
+    width: 20rem;
+    height: 20rem;
+    margin-top: 15rem;
+    margin-left: 50rem;
+    background-color: purple;
+    
+}
+
+.box:hover {
+    transform: scale(1.5);
+    transition: ease;
+    transition-duration: 2s;
+}

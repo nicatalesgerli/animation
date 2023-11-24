@@ -1,0 +1,30 @@
+.box {
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+    animation-name: color;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: blue;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    75% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: pink;
+    }
+}

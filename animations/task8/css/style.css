@@ -1,0 +1,24 @@
+.box {
+    width: 10rem;
+    height: 18rem;
+    background-color: blue;
+    padding: 5px;
+}
+
+.box:hover {
+    animation-name: change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes change  {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: cyan;
+    }
+}

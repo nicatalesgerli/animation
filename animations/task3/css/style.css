@@ -1,0 +1,29 @@
+.box1 {
+    width: 10%;
+    height: 7rem;
+    background-color: red;
+    transition: ease;
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+.box2 {
+    width: 7rem;
+    height: 7rem;
+    margin-top: 1rem;
+    background-color: blue;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+
+.box1:hover {
+    width: 30%;
+    transition: ease;
+    transition-duration: 1s; 
+}
+
+.box2 {
+    width: 30%;
+    transition: ease;
+    transition-duration: 3s;
+}

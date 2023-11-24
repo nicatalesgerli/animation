@@ -1,0 +1,42 @@
+.main {
+  width: 23rem;
+  height: 23rem;
+  background-color: aquamarine;
+  display: flex;
+
+}
+
+.box {
+    width: 3rem;
+    height: 3rem;
+    background-color: blue;
+    animation-name: movement;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes movement {
+    25% {
+        transform: translate(19rem , 0rem);
+        border-radius: 1.5rem;
+        background-color: blue;
+    }
+
+    50% {
+        transform: translate(19rem , 19rem);
+        border-radius: 0rem;
+        background-color: red;
+    }
+    75% {
+        transform: translate(0rem, 19rem);
+        border-radius: 1.5rem;
+        background-color: blue;
+    }
+
+    100% {
+        transform: translate(0rem , 0rem);
+        border-radius: 0rem;
+        background-color: green;
+    }
+}

@@ -1,0 +1,35 @@
+.btn {
+    width: 12rem;
+    height: 4rem;
+    margin-left: 50rem;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.btn:hover {
+    animation-name: geeks;
+    animation-duration: 1s;
+    
+}
+
+@keyframes geeks {
+    to {
+        color: green;
+        border: 3px solid green;
+    }
+    20% {
+        transform: translate(5px , 5px);
+    }
+    40% {
+        transform: translate(-5px ,5px);
+    }
+    60% {
+        transform: translate(5px ,5px);
+    }
+    80% {
+        transform: translate(-5px , 5px);
+    }
+    100% {
+        transform: translate(5px , 5px);
+    }
+}

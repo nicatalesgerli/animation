@@ -1,0 +1,37 @@
+ol li {
+    animation-name: big; 
+    animation-duration: 1s; 
+    margin-left: 30px;
+}
+
+.l1 {
+    animation-delay: 1s;
+}
+
+
+.l2 {
+    animation-delay: 1.3s;
+}
+
+.l3{
+    animation-delay: 1.4s;
+}
+
+.l4 {
+    animation-delay: 1.5s;
+}
+
+.l5 {
+    animation-delay: 1.6s;
+}
+
+@keyframes big {
+    0% {
+        font-size: 30px;
+    }
+
+    100% {
+        font-size: 60px;
+        color: green;
+    }
+}
